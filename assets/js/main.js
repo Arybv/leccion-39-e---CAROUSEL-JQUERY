@@ -14,7 +14,6 @@ function posicionAntes(){
     slider.css('margin-left', '-'+100+'%');
   });
 }
-
 function posicionDespues(){
   sliders.animate({
     marginLeft:"-"+200+"%"
