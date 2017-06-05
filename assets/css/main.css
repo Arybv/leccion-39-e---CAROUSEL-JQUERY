@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  min-height: 100vh;
+  color: #fff;
+}
+
+#slider-carousel {
+  width: 100%;
+  max-width: 489px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+#sliders {
+  display: flex;
+}
+
+figure {
+  height: 100%;
+}
+#antes:hover, #despues:hover {
+  background: rgba(255, 255, 255, 1);
+}
+#antes {
+  left: 18px;
+}
+#despues {
+  right: 18px;
+}
+.circle {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 1px solid pink;
+  border-radius: 50%;
+}
+.circle:hover, .circle-select{
+  background-color: pink;
+  cursor: pointer;
+}
+
+.controls {
+  margin: 0 auto;
+  width: 100px;
+  margin-top: 400px;
+}
